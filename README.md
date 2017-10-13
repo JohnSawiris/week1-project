@@ -15,4 +15,6 @@ This is a portfolio website that has links and information about my projects, ba
 ## Link to GitHub Pages
 [Click here](https://johnsawiris.github.io/week1-project/) to check out my portfolio
 
-## Copyright (c) 2017 John Sawiris
+## Legal
+Copyright (c) 2017 John Sawiris
+This software is licensed under the MIT license.
