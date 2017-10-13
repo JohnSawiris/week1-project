@@ -26,10 +26,8 @@ h5 + p {
   max-width: 1400px;
 }
 .container {
-  /*background-color: #1e0033;*/
   border-radius: 5px;
   padding: 0 1em 3em 1em;
-  opacity: 0.85;
 }
 .jumbotron {
   position: relative;
@@ -52,7 +50,7 @@ h5 + p {
 }
 .center {
   width: 90%;
-  margin: 40px auto;
+  margin: 2em auto;
 }
 div.center {
   border-top: 1px solid #B0C4DE;
@@ -72,6 +70,17 @@ div.center {
   margin: 0 auto 40px;
   padding-bottom: 20px;
 }
+.section-header {
+    text-align: center;
+    letter-spacing: 3px;
+
+    font-size: 1.4em;
+    padding-bottom: 0.5em;
+    padding-top: 0.3em;
+}
+h2.section-header {
+  padding-bottom: 1em;
+}
 li.col-md-4 a {
   font-size: 1.2em;
   color: #f5d089;
@@ -79,12 +88,14 @@ li.col-md-4 a {
 li.col-md-4 a:hover {
   color: #f2bd5a;
 }
-
 .background {
   padding-bottom: 2em;
 }
 .background h3 {
   margin-bottom: 0.5em;
+}
+.background .row {
+  margin-bottom: 30px;
 }
 .date {
   font-style: italic;
@@ -118,16 +129,19 @@ li.col-md-4 a:hover {
     top: 4%;
     left: 30%;
   }
+  div.center {
+    border: none;
+  }
   .medium-small {
     text-align: center;
   }
   .medium-small h6{
-    font-size: 2em;
+    font-size: 1.6em;
   }
   .medium-small ol li{
     display: inline-block;
     margin-right: 30px;
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
   .medium-small div.col-md-4:nth-child(2n+1) {
     display: none;
@@ -135,9 +149,10 @@ li.col-md-4 a:hover {
   .background {
     margin-top: 2em;
   }
+
   .blockquote {
     margin-top: 1.3em;
-    font-size: 1.1em;
+    font-size: 1em;
   }
   .blockquote-footer {
     font-size: 1.1em;
@@ -160,6 +175,10 @@ li.col-md-4 a:hover {
     left: 19%;
     letter-spacing: 8px;
   }
+  div.center {
+    border: none;
+    padding: 0;
+  }
   .medium-small {
     text-align: center;
   }
@@ -178,9 +197,13 @@ li.col-md-4 a:hover {
     margin-top: 2em;
     font-size: 0.95em;
   }
-  .blockquote {
-    margin-top: 1.3em;
+  .section-header {
     font-size: 1.1em;
+  }
+  .blockquote {
+    text-align: justify;
+    margin-top: 1.3em;
+    font-size: 0.9em;
     font-weight: lighter;
     line-height: 1.3em;
   }
